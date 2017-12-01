@@ -1,0 +1,20 @@
+---
+title: "Oncolytic Virus Therapy (OVT) for Glioblastoma"
+author: "Kevin Stachelek"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  word_document:
+    reference_docx: RB_exome_manuscript_template.docx
+  pdf_document: 
+    latex_engine: xelatex
+    fig_caption: true
+  html_document: default
+bibliography: trgn_537_group_proj.bib
+csl: cell.csl
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
